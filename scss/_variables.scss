@@ -1,0 +1,24 @@
+@import "fonts.scss";
+
+/*---PALETA DE COLORES----*/
+
+$paletaColores: (
+	"amarillo": #fff87f,
+	"gris": #eaf2e3,
+	"azul": #66d7d1,
+	"violeta": #C997C6,
+	"rojo": #ff637d,
+	"rosa": #EDBB99,
+	);
+
+
+/*------FONDO------*/
+$fondo:#000;
+
+/*------TEXTOS-----*/
+$texto:#000;
+$textoSecundario:#cdcdcd;
+$fuente: 'Josefin', sans-serif;
+$fRegular: 400;
+$fBold: 700;
+$fsTitulo: 2rem;

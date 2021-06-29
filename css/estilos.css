@@ -1,0 +1,453 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,700;1,400&display=swap");
+/*---PALETA DE COLORES----*/
+/*------FONDO------*/
+/*------TEXTOS-----*/
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,700;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,700;1,400&display=swap");
+.bold {
+  font-size: 1rem;
+  font-weight: 700; }
+
+/*---------HEADER NAVS-------------*/
+.header {
+  height: 90px;
+  background: #fff87f;
+  position: fixed;
+  width: 100%;
+  z-index: 100; }
+  .header img {
+    margin: auto;
+    max-height: 80px; }
+  .header .navbar-nav a {
+    background: #fff87f; }
+  .header .botonMobile {
+    width: 70px;
+    height: 40px;
+    padding-right: 10px;
+    color: black; }
+  .header .botonera a {
+    text-decoration: none;
+    padding: 20px;
+    letter-spacing: 0.5px;
+    font-size: 1.2rem;
+    color: black; }
+  .header a:hover {
+    background-color: lightyellow;
+    border-bottom: solid 5px #ff637d; }
+
+/*--------CARRUSEL DE IMAGENES-----------*/
+.carruselImagenes {
+  margin-top: 80px;
+  width: 100%;
+  background-size: cover;
+  background-position: center; }
+
+/*---------PRESENTANDO PRODUCTOS----------*/
+.presentacionDeProductos {
+  text-align: center;
+  background-color: #EDBB99;
+  box-sizing: border-box;
+  padding: 10px; }
+  .presentacionDeProductos h2 {
+    font-size: 3rem;
+    font-weight: 400; }
+    @media only screen and (min-width: 480px) and (max-width: 728px) {
+      .presentacionDeProductos h2 {
+        font-size: 1.5rem;
+        font-weight: 400; } }
+    @media only screen and (max-width: 480px) {
+      .presentacionDeProductos h2 {
+        font-size: 1rem;
+        font-weight: 400; } }
+
+.center {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center; }
+
+.contenedorProductos {
+  margin: auto;
+  padding: 20px; }
+
+/*-----------------CONTENEDOR DE SERVICIOS--------------------*/
+.seccionProductos__productosImagen--imagenSeccion {
+  border-radius: 1000px;
+  max-width: 500px;
+  width: 100%; }
+
+/*----------------CONTACTO----------------*/
+.contactTitle {
+  padding: 10px;
+  background: #C997C6;
+  text-align: center; }
+  .contactTitle h2 {
+    font-size: 3rem;
+    font-weight: 400; }
+    @media only screen and (min-width: 480px) and (max-width: 728px) {
+      .contactTitle h2 {
+        font-size: 1.5rem;
+        font-weight: 400; } }
+    @media only screen and (max-width: 480px) {
+      .contactTitle h2 {
+        font-size: 1rem;
+        font-weight: 400; } }
+
+.mapaUbicacion {
+  width: 600px; }
+
+/*-------- FORMULARIO ---------------*/
+.formData {
+  width: 600px; }
+  .formData input {
+    border: 3px solid;
+    width: 100%;
+    padding: 0.4em;
+    margin-top: 5px;
+    border-radius: 10px;
+    font-family: "Josefin", sans-serif !important; }
+  .formData textarea {
+    border: 3px solid;
+    width: 100%;
+    height: 300px;
+    margin-top: 5px;
+    padding: 1em;
+    border-radius: 10px;
+    font-family: "Josefin", sans-serif; }
+
+.btnsForm {
+  color: #340e62;
+  background: #fff; }
+
+.send {
+  background: #D2B4DE; }
+
+/*----------------SERVICIOS------------------*/
+.serviciosExtras {
+  padding: 10px;
+  background: #66d7d1;
+  text-align: center; }
+  .serviciosExtras h2 {
+    font-size: 3rem;
+    font-weight: 400; }
+    @media only screen and (min-width: 480px) and (max-width: 728px) {
+      .serviciosExtras h2 {
+        font-size: 1.5rem;
+        font-weight: 400; } }
+    @media only screen and (max-width: 480px) {
+      .serviciosExtras h2 {
+        font-size: 1rem;
+        font-weight: 400; } }
+
+.btnNewsletter {
+  font-family: Josefin, sans-serif;
+  font-weight: 700;
+  color: white;
+  background-color: teal;
+  border-color: teal; }
+
+.btnEmail {
+  background-color: white;
+  cursor: auto;
+  border: solid 3px teal;
+  box-shadow: 10px 5px 10px; }
+  .btnEmail:focus {
+    color: black;
+    background-color: #fff;
+    border-color: teal;
+    outline: 0; }
+
+.tituloNewsletter {
+  font-size: 1.2rem; }
+
+/*-------BOTON WHATSAPP--------*/
+.botonDeAccion img {
+  width: 70px;
+  position: fixed;
+  bottom: 10px;
+  right: 10px; }
+
+/*--------FOOTER---------*/
+.footer {
+  background: #ffcc66;
+  display: flex;
+  justify-content: space-around; }
+
+.botoneraFooter {
+  display: flex;
+  justify-content: space-around; }
+
+.botoneraContainer {
+  padding: 10px; }
+
+/*-----------------BOTON VER MAS--------------------*/
+.botonVerMas {
+  border: none;
+  font-weight: 700;
+  font-size: 1.5em;
+  padding: 8px 22px;
+  border-radius: 20px;
+  cursor: pointer;
+  background-size: cover;
+  transition: 1s;
+  background-image: linear-gradient(to left, #00F260, #0575E6); }
+  .botonVerMas:hover {
+    background-image: linear-gradient(to left, #0575E6, #00F260);
+    transform: translatey(3px); }
+  .botonVerMas a {
+    color: white;
+    text-decoration: none; }
+
+.uppercase {
+  text-transform: uppercase; }
+
+/*-------GENERALES--------*/
+body {
+  font-family: 'Josefin', sans-serif;
+  font-weight: 400;
+  background-image: url(../media/tiny-squares.png);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+
+ul {
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  color: black; }
+  a:hover {
+    text-decoration: none;
+    color: black; }
+
+/*----- PAGINAS DEL FOOTER-------*/
+.pagesFooter {
+  padding-top: 150px;
+  padding-bottom: 150px; }
+  .pagesFooter .scrollspy-PD {
+    position: relative;
+    height: 400px;
+    margin-top: .5rem;
+    overflow: auto; }
+
+#pagesFooter input {
+  padding: 5px;
+  margin-bottom: 6px; }
+
+.pagesFooter__pDenvios--titulo {
+  color: #000;
+  background: #eaf2e3;
+  text-align: center;
+  font-weight: 700; }
+
+.fondoGris {
+  background: #eaf2e3; }
+
+.containerFooterNewsletter {
+  width: 100%; }
+
+.redes {
+  color: #000;
+  font-size: 30px; }
+  .redes a {
+    font-family: "Josefin", sans-serif; }
+
+/*------FOTOS---------*/
+#galeriaArtistica img {
+  width: 100%; }
+
+/*-- PRESUPUESTOS---*/
+.fondoAzul {
+  background: #66d7d1; }
+
+.fondoRojo {
+  background: #ff637d; }
+  .fondoRojo .rojo {
+    color: #ff637d; }
+
+/*---PALETA DE COLORES----*/
+/*------FONDO------*/
+/*------TEXTOS-----*/
+/*------------ GRILLA DE PRODUCTOS ESCOLARES----------------*/
+.containerFoto__grillaDeProductosEsc {
+  padding-top: 90px;
+  height: 100vh;
+  margin: 5%;
+  display: grid;
+  grid-template-areas: "foto1 foto1 foto2 foto2 foto3 foto3 foto4 foto4" "foto1 foto1 foto2 foto2 foto3 foto3 foto4 foto4" "foto5 foto5 foto6 foto6 foto7 foto7 foto8 foto8" "foto5 foto5 foto6 foto6 foto7 foto7 foto8 foto8";
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(5, 2fr);
+  grid-gap: 1em; }
+
+.esc1 {
+  grid-area: foto1;
+  background-image: url(../media/mediaProductos/esc1.jpg);
+  background-position: center;
+  background-size: cover; }
+
+.esc2 {
+  grid-area: foto2;
+  background-image: url(../media/mediaProductos/esc2.jpg);
+  background-position: center;
+  background-size: cover; }
+
+.esc3 {
+  grid-area: foto3;
+  background-image: url(../media/mediaProductos/esc3.jpg);
+  background-position: center;
+  background-size: cover; }
+
+.esc4 {
+  grid-area: foto4;
+  background-image: url(../media/mediaProductos/esc4.jpg);
+  background-position: center;
+  background-size: cover; }
+
+.esc5 {
+  grid-area: foto5;
+  background-image: url(../media/mediaProductos/esc5.jpg);
+  background-position: center;
+  background-size: cover; }
+
+.esc6 {
+  grid-area: foto6;
+  background-image: url(../media/mediaProductos/esc6.jpg);
+  background-position: center;
+  background-size: cover; }
+
+.esc7 {
+  grid-area: foto7;
+  background-image: url(../media/mediaProductos/esc7.jpg);
+  background-position: center;
+  background-size: cover; }
+
+.esc8 {
+  grid-area: foto8;
+  background-image: url(../media/mediaProductos/esc8.jpg);
+  background-position: center;
+  background-size: cover; }
+
+/*---------------GRILLA DE PRODUCTOS ARTISTICA---------------*/
+.grillaDeProductosArt {
+  padding-top: 90px;
+  height: 100vh;
+  margin: 5%;
+  display: grid;
+  grid-template-areas: "foto1 foto1 foto2 foto2 foto3 foto3 foto4 foto4" "foto1 foto1 foto2 foto2 foto3 foto3 foto4 foto4" "foto5 foto5 foto6 foto6 foto7 foto7 foto8 foto8" "foto5 foto5 foto6 foto6 foto7 foto7 foto8 foto8";
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(5, 2fr);
+  grid-gap: 1em; }
+
+.botonCenter {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; }
+
+.art1 {
+  grid-area: foto1;
+  background-image: url(../media/mediaProductos/art1.jpg);
+  background-position: center;
+  background-size: cover; }
+
+.art2 {
+  grid-area: foto2;
+  background-image: url(../media/mediaProductos/art2.jpg);
+  background-position: center;
+  background-size: cover; }
+
+.art3 {
+  grid-area: foto3;
+  background-image: url(../media/mediaProductos/art3.jpg);
+  background-position: center;
+  background-size: cover; }
+
+.art4 {
+  grid-area: foto4;
+  background-image: url(../media/mediaProductos/art4.jpg);
+  background-position: center;
+  background-size: cover; }
+
+.art5 {
+  grid-area: foto5;
+  background-image: url(../media/mediaProductos/art5.jpg);
+  background-position: center;
+  background-size: cover; }
+
+.art6 {
+  grid-area: foto6;
+  background-image: url(../media/mediaProductos/art6.jpg);
+  background-position: center;
+  background-size: cover; }
+
+.art7 {
+  grid-area: foto7;
+  background-image: url(../media/mediaProductos/art7.jpg);
+  background-position: center;
+  background-size: cover; }
+
+.art8 {
+  grid-area: foto8;
+  background-image: url(../media/mediaProductos/art8.jpg);
+  background-position: center;
+  background-size: cover; }
+
+/*----------------GRILLA DE FOTOS-------------------------*/
+.grillaDeProductosServ {
+  padding-top: 90px;
+  height: 100vh;
+  margin: 5%;
+  display: grid;
+  grid-template-areas: "foto1 foto1 foto2 foto2 foto3 foto3 foto4 foto4" "foto1 foto1 foto2 foto2 foto3 foto3 foto4 foto4" "foto5 foto5 foto6 foto6 foto7 foto7 foto8 foto8" "foto5 foto5 foto6 foto6 foto7 foto7 foto8 foto8";
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(5, 2fr);
+  grid-gap: 1em; }
+
+.serv1 {
+  grid-area: foto1;
+  background-image: url(../media/mediaProductos/serv1.jpg);
+  background-position: center;
+  background-size: cover; }
+
+.serv2 {
+  grid-area: foto2;
+  background-image: url(../media/mediaProductos/serv2.jpg);
+  background-position: center;
+  background-size: cover; }
+
+.serv3 {
+  grid-area: foto3;
+  background-image: url(../media/mediaProductos/serv3.jpg);
+  background-position: center;
+  background-size: cover; }
+
+.serv4 {
+  grid-area: foto4;
+  background-image: url(../media/mediaProductos/serv4.jpg);
+  background-position: center;
+  background-size: cover; }
+
+.serv5 {
+  grid-area: foto5;
+  background-image: url(../media/mediaProductos/serv5.jpg);
+  background-position: center;
+  background-size: cover; }
+
+.serv6 {
+  grid-area: foto6;
+  background-image: url(../media/mediaProductos/serv6.jpg);
+  background-position: center;
+  background-size: cover; }
+
+.serv7 {
+  grid-area: foto7;
+  background-image: url(../media/mediaProductos/serv7.jpg);
+  background-position: center;
+  background-size: cover; }
+
+.serv8 {
+  grid-area: foto8;
+  background-image: url(../media/mediaProductos/serv8.jpeg);
+  background-position: center;
+  background-size: cover; }

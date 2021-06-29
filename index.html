@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Papelera piedra papel y tijera se encuentra al sur de la ciudad de rio cuarto proveemos variados articulos escolares de uso cotidiano y de diseño; servicio de fotocopiado escaneo e impresiones ademas articulos de artistica ">
+	<meta property="og:title" content="papelera piedra papel y tijera">
+	<meta name="keywords"  content="papelera, fotocopiadora, papelera de diseño, papelera en rio cuarto, lettering">
+
+	<title>Papelera Piedra Papel y Tijera</title>
+
+	<!--bootstrap link</!-->
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+
+	<!-- CSS link</!-->
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+
+	<!--ANIMATE.CSS link/!-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+</head>
+<body class="">
+
+	<div class="header">
+		
+		<nav class="navbar navbar-expand-lg navbar-light d-flex px-0 ">
+
+			<div class="container-fluid d-flex justify-content-between flex-nowrap">
+				<div>
+					<a href="index.html"><img src="media/logo.png" class="container-fluid"></a>
+				</div>
+
+				<div class="botonMobile">
+					<button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon "></span>
+					</button>
+				</div>
+			</div>
+
+			<div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+				<div class="navbar-nav botonera">
+					<a class="data-scroll" href="index.html">INICIO</a></a>
+					<a class="data-scroll" href="#contenedorDeServicios">PRODUCTOS</a>
+					<a class="data-scroll" href="#servicios">SERVICIOS</a>
+					<a class="data-scroll" href="pages/talleres.html">TALLERES</a>
+					<a class="data-scroll" href="#contact-Us">CONTACTO</a>
+				</div>
+			</div>
+		</nav>
+	</div>	
+	<!-- carrusel de imagenes-->
+	<div class="container-fluid px-0">
+
+		<div id="carruselIndex" class="carousel slide carruselImagenes" data-ride="carousel">
+			<div class="carousel-inner">
+
+				<div class="carousel-item active">
+					<div>
+						<img src="media/carrusel-1.jpg" srcset="width 400" class="d-block w-100 img-fluid" alt="...">
+					</div>
+				</div>
+
+				<div class="carousel-item">
+					<img src="media/carrusel-2.jpg" class="d-block w-100" alt="...">
+				</div>
+
+				<div class="carousel-item">
+					<img src="media/carrusel-3.jpg" class="d-block w-100" alt="...">
+				</div>
+			</div>
+
+			<a class="carousel-control-prev" href="#carruselIndex" role="button" data-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+
+			<a class="carousel-control-next" href="#carruselIndex" role="button" data-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+
+		</div>
+		<!---SECCION PRODUCTOS---->
+		<div class="presentacionDeProductos">
+			<h2>CONOCÉ NUESTOS PRODUCTOS</h2>
+		</div>
+
+		<div  id="contenedorDeServicios" class="container-fluid contenedorProductos">
+			<div class="">
+				<!-----PROD. ESCOLARES--->
+				<section class=" seccionProductos d-flex row justify-content-center p-5">
+					<div class="container row justify-content-center ">
+						<div class="column mx-auto">
+							<div class="center">
+								<div class="column p-2">
+									<div class="column">
+										<h2> Articulos</h2>
+										<h2>Escolares</h2>
+									</div>
+									<button class="botonVerMas mx-auto"><a href="productos/articulosEscolares.html">Ver Más</a></button>
+								</div>
+							</div>
+						</div>
+						<div class="seccionProductos__productosImagen">
+							<img src="media/escolares.jpg" alt="seccion Escolares" class="seccionProductos__productosImagen--imagenSeccion wow animate__animated animate__fadeInRight">
+						</div>
+					</div>
+				</section>
+				<!----PROD. ARTISTICA------>
+				<section class=" seccionProductos d-flex row justify-content-center p-5">
+					<div class="container d-flex flex-row-reverse justify-content-center row ">
+						<div class="column mx-auto">
+							<div class="center">
+								<div class="column p-2">
+									<h2>Artistica</h2>
+									
+									<button class="botonVerMas botn mx-auto"><a href="productos/articulosArtistica.html">Ver Más</a></button>
+								</div>
+							</div>
+						</div>
+						<div class="seccionProductos__productosImagen">
+							<img src="media/artistica.jpg" alt="seccion artistica" class="seccionProductos__productosImagen--imagenSeccion wow animate__animated animate__fadeInLeft">
+						</div>
+					</div>
+				</section>
+			</div>
+			<!------SERVICIOS----->
+			<div id="servicios">
+				<section class=" seccionProductos d-flex row justify-content-center p-5">
+					<div class="container row justify-content-center ">
+						<div class="column mx-auto">
+							<div class="center">
+								<div class="column p-2">
+									<h2>Servicios</h2>
+									
+									<button class="botonVerMas botn mx-auto"><a href="productos/servicios.html">Ver Más</a></button>
+								</div>
+							</div>
+						</div>
+						<div class="seccionProductos__productosImagen">
+							<img src="media/servicios.jpg" alt="seccionEscolares" class="seccionProductos__productosImagen--imagenSeccion wow animate__animated animate__fadeInRight">
+						</div>
+					</div>
+				</section>
+			</div>
+		</div>
+
+		<!-----CONTENEDOR CONTACTO------->
+		<div id="contact-Us" class="bg-white">
+
+			<!------TITULO DE CONTACTO--------->
+			<div class="contactTitle">
+				<h2>CONTACTO</h2>
+			</div>
+			<!-----TITULO FORM------>
+			<div class="">
+				<div class="container-fluid text-center p-3">
+					<p><strong>Si deseas más información acerca de nuestros productos envíanos un correo electrónico a través de nuestro siguiente formulario de contacto.</strong></p>
+				</div>
+			</div>
+
+			<div class="wow animate__animated animate__fadeInUpBig">
+
+				<!-----CONTENEDOR FORM+MAPA------->
+				<div class="row justify-content-center mx-0  ">
+
+					<!--------------FORM-------------->
+					<form action="" method="POST" enctype="multipart/form-data" class="formData ">
+
+						
+
+						<!-------FORMULARIO------>
+
+						<div class="container-fluid d-flex-row-center col-sm-12 col-md-12 col-lg-12">
+
+							<!--------DATOS PERSONALES----------->
+							<div class="col-lg-12 px-0">
+
+								<div class="col-12 mb-3 mx-0">
+									<input id="nombre" type="text" name="nombre" placeholder="Nombre" class="btnsForm">
+								</div>
+
+								<div class="col-lg-12 mb-3 mx-0">
+									<input type="telefono" name="telefono" placeholder="Telefono" class="btnsForm">
+								</div>
+
+							</div>
+
+							<!----------EMAIL DE CONTACTO--------->
+							<div class="col-lg-12 mb-3">
+								<input type="email" name="email" placeholder="Email" required class="btnsForm">
+							</div>
+
+							<!------------ESPACIO PARA MENSAJE-------------->
+
+							<div class="col-lg-12 mb-3">
+								<textarea class="formData btnsForm" placeholder="Mensaje" required></textarea>
+
+							</div>
+
+							<!----------------BOTON ENVIAR------------------>
+
+							<div class="col-lg-12 mb-3 ">
+								<input type="submit" data-toggle="modal" data-target="#avisoFormulario"class="btnsForm send" placeholder="ENVIAR" >
+
+							</div>
+
+						</div>
+
+					</form>
+
+					<!---------MAPA GOOGLE----------->
+					
+					<div class="mapaUbicacion">		
+						<iframe class="container-fluid col-sm-12 col-md-12 col-lg-12" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13362.728224966702!2d-64.3622048!3d-33.1437165!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6407318f581dc5cb!2sPapelera%20Piedra%20Papel%20y%20Tijera!5e0!3m2!1ses-419!2sar!4v1623640132443!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>	
+					</div>	
+					
+				</div>
+			</div>	
+
+			<!-- Modal Enviar consulta-->
+			<div class="modal fade" id="avisoFormulario" tabindex="-1" aria-labelledby="confirmacionContacto" aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="confirmacionContacto">CONTACTO</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body">
+							<div>
+								¡Gracias por contactarse
+							</div>
+							<div>
+								nos comunicaremos en la brevedad!
+							</div>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btnsForm rounded-pill btnsForm send" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!---NEWSLETTER--->
+		<div class="bg-white">
+			<div class="container-fluid m-0 p-0">
+
+				<div class="serviciosExtras">
+					<h2>NEWSLETTER</h2>
+				</div>
+
+				<div class="container p-3">
+					<section id="newsletter" class="row p-3">
+
+						<h2 class=" tituloNewsletter col-md-3 p-0 text-center uppercase">Recibi todas las novedades de Piedra Papel y Tijera</h2>
+						
+						<div class="col-md-9">
+
+							<form id="newsletterForm" method="POST">
+								<div class="form-row">
+									<div class="col-12 col-md-9 mb-2 mb-md-2">
+										<input class="btnEmail form-control form-control-lg send-newsletter" placeholder="Ingrese su email..." id="email" required="required" name="email" type="email" value="">
+									</div>
+
+									<div class="col-12 col-md-3">
+										<button type="submit" class=" p-2 btn btnNewsletter rounded-pill container " data-toggle="modal" data-target="#avisoNewsletter">SUSCRIBITE</button>
+									</div>
+
+								</div>
+
+							</form>
+
+							
+							<!-- Modal -->
+							<div class="modal fade" id="avisoNewsletter" tabindex="-1" aria-labelledby="confirmacionNewsletter" aria-hidden="true">
+								<div class="modal-dialog">
+									<div class="modal-content">
+										<div class="modal-header">
+											<h5 class="modal-title" id="confirmacionNewsletter">NEWSLETTER</h5>
+											<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+												<span aria-hidden="true">&times;</span>
+											</button>
+										</div>
+										<div class="modal-body">
+											<div>
+												¡Gracias! Ya se encuentra suscripto!
+											</div>
+											<div>
+												A partir de ahora recibirás todas las novedades
+											</div>
+										</div>
+										<div class="modal-footer">
+											<button type="button" class="btn btnNewsletter rounded-pill " data-dismiss="modal">Close</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+					
+				</div>
+
+			</div>
+		</div>
+
+		<div class="botonDeAccion">
+			<a href="https://api.whatsapp.com/send?phone=+543584834134" target="_blank"><img src="media/whatsapp.svg" alt="logoWhatsapp"></a>
+		</div>
+
+	</div>
+
+	<footer class="footer">
+		<div  class="botoneraFooter container-fluid d-flex row">
+			<div class="botoneraContainer">
+				<strong>PIEDRA PAPEL Y TIJERA</strong>
+				<ul>
+					<li><a href="pages/quienesSomos.html">Quienes Somos</a></li>
+					<li><a href="pages/politicasDeDevolucion.html">Politicas de devolucion</a></li>
+				</ul>
+			</div>
+
+			<div class="botoneraContainer">
+				<strong>SERVICIO AL CLIENTE</strong>
+				<ul>
+					<li><a href="pages/presupuestos.html">Presupuesto</a></li>
+					<li><a href="pages/envios.html">Envios</a></li>
+					<li><a href="pages/formasDePago.html">Formas de Pago</a></li>
+				</ul>
+			</div>
+
+			<div class="botoneraContainer">
+				<strong>AYUDA</strong>
+				<ul>
+					<li><a href="pages/preguntasFrecuentes.html">Preguntas frecuentes</a></li>
+				</ul>
+			</div>	
+
+			<!---REDES---->
+			<div class="container-fluid row justify-content-center pb-2">
+				<a href="https://www.facebook.com/piedrapapelytijeraok/" target="_blank" class="d-flex mb-1 "><i class="fab fa-facebook redes px-1"></i></a>
+				<a href="https://api.whatsapp.com/send?phone=+543584834134" target="_blank" class="d-flex mb-1"><i class="fab fa-whatsapp redes px-1"></i></a>
+				<a href="https://instagram.com/piedrapapelytijera.ok?utm_medium=copy_link" target="_blank" class="d-flex mb-1"><i class="fab fa-instagram redes px-1"></i></a>
+			</div>	
+
+		</div>
+	</footer>
+
+
+	<!--------LINK JQUERY-------->
+	<script src="bootstrap/js/jquery-3.5.1.slim.min.js" ></script>
+
+	<!-------LINK JSCRIPT-------->
+	<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+
+	<!-----LINK FONT AWESOME----->
+	<script src="https://kit.fontawesome.com/cff0df97a9.js" crossorigin="anonymous"></script>
+
+	<!-----LINK WOW.JS----->
+	<script src="js/wow.min.js"></script>
+	<script>
+		new WOW().init();
+	</script>
+
+
+</body>
+
+
+
+
+
+
+</html>
