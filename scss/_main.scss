@@ -17,6 +17,8 @@
 		position: fixed;
 		width: 100%;
 		z-index: 100;
+		box-shadow: 0 2px 2px lightgray;
+
 		img{
 			margin: auto;
 			max-height: 80px;
@@ -85,15 +87,43 @@
 
 /*-----------------CONTENEDOR DE SERVICIOS--------------------*/
 
-.seccionProductos__productosImagen{
-
-}
-
-.seccionProductos__productosImagen--imagenSeccion{
-	border-radius: 1000px;
-	max-width: 500px;
+.contenedorSeccion{
 	width: 100%;
+	height: 400px;
+	overflow: hidden;
 }
+
+.bannerIdSeccion{
+	width: 1100px;
+	position: relative;
+	margin: 0 auto;
+
+}
+
+.solapaContenedor2{
+	position: absolute;
+	width: 300px;
+	height: 300px;
+	background: #f7f7f7e3;
+
+}
+
+/*----subarticulos----*/
+
+
+
+
+.bannerSubArticulos{
+	width: 350px;
+	height: 350px;
+	border-radius: 400px;
+	max-width: 100%;
+	}
+
+.bannerSubTitulos{
+	@include titulos (1.5rem, $fBold);
+	}
+
 
 /*----------------CONTACTO----------------*/
 .contactTitle {
@@ -161,23 +191,31 @@
 
 .btnNewsletter{
 	font-family: Josefin, sans-serif;
+	border-radius: 0px;
+	border: none;
+	padding: 10px;
+	width: 100%;
+	height: 100%;
 	font-weight: $fBold;
-	color: white;
-	background-color: teal;
-	border-color: teal;
+	color: #fff;
+	background: map-get($paletaColores, rojo);
+
 }
 
 .btnEmail{
 	background-color: white;
 	cursor: auto;
-	border: solid 3px teal;
-	box-shadow: 10px 5px 10px;
+	padding: 10px;
+	border: solid 1px teal;
+	width: 100%;
+	height: 100%;
 	&:focus{
 		color: black;
     background-color: #fff;
     border-color: teal;
     outline: 0;
 	}
+	
 }
 
 .tituloNewsletter{
@@ -248,7 +286,7 @@
 
 body{
   font-family: 'Josefin', sans-serif;
-   font-weight: 400;
+  font-weight: 400;
 	background-image: url(../media/tiny-squares.png);
 	display: flex;
 	flex-direction: column;
@@ -263,10 +301,6 @@ ul{
 a{
 	text-decoration: none;
 	color:black;
-	&:hover{
-		text-decoration: none;
-		color:black;
-	}
 }
 
 

@@ -82,68 +82,63 @@
 
 		</div>
 		<!---SECCION PRODUCTOS---->
-		<div class="presentacionDeProductos">
+		<div class="presentacionDeProductos mb-3">
 			<h2>CONOCÉ NUESTOS PRODUCTOS</h2>
 		</div>
 
-		<div  id="contenedorDeServicios" class="container-fluid contenedorProductos">
-			<div class="">
-				<!-----PROD. ESCOLARES--->
-				<section class=" seccionProductos d-flex row justify-content-center p-5">
-					<div class="container row justify-content-center ">
-						<div class="column mx-auto">
-							<div class="center">
-								<div class="column p-2">
-									<div class="column">
-										<h2> Articulos</h2>
-										<h2>Escolares</h2>
-									</div>
-									<button class="botonVerMas mx-auto"><a href="productos/articulosEscolares.html">Ver Más</a></button>
-								</div>
-							</div>
-						</div>
-						<div class="seccionProductos__productosImagen">
-							<img src="media/escolares.jpg" alt="seccion Escolares" class="seccionProductos__productosImagen--imagenSeccion wow animate__animated animate__fadeInRight">
+		<div  id="contenedorDeServicios" class="container">
+
+			<!-----PROD. ESCOLARES--->
+
+			<section id="escolares"  class="container-fluid p-0 mb-3" >
+				<div class="p-2 contenedorSeccion d-flex align-items-center"> 
+					<img class="bannerIdSeccion" src="media/version_2/escolares.jpg" srcset="width 480" alt="">
+					
+					<div class="solapaContenedor2 mx-3">
+
+						<div class="column p-4 text-center ">
+							<h2 class="uppercase">Articulos Escolares</h2>
+							<p>Te acompañan en el dia a dia en casa, la oficina y la escuela </p>
+							<button class="botonVerMas  mx-auto"><a href="productos/articulosEscolares.html">Ver Más</a></button>
 						</div>
 					</div>
-				</section>
-				<!----PROD. ARTISTICA------>
-				<section class=" seccionProductos d-flex row justify-content-center p-5">
-					<div class="container d-flex flex-row-reverse justify-content-center row ">
-						<div class="column mx-auto">
-							<div class="center">
-								<div class="column p-2">
-									<h2>Artistica</h2>
-									
-									<button class="botonVerMas botn mx-auto"><a href="productos/articulosArtistica.html">Ver Más</a></button>
-								</div>
-							</div>
-						</div>
-						<div class="seccionProductos__productosImagen">
-							<img src="media/artistica.jpg" alt="seccion artistica" class="seccionProductos__productosImagen--imagenSeccion wow animate__animated animate__fadeInLeft">
-						</div>
-					</div>
-				</section>
-			</div>
-			<!------SERVICIOS----->
-			<div id="servicios">
-				<section class=" seccionProductos d-flex row justify-content-center p-5">
-					<div class="container row justify-content-center ">
-						<div class="column mx-auto">
-							<div class="center">
-								<div class="column p-2">
-									<h2>Servicios</h2>
-									
-									<button class="botonVerMas botn mx-auto"><a href="productos/servicios.html">Ver Más</a></button>
-								</div>
-							</div>
-						</div>
-						<div class="seccionProductos__productosImagen">
-							<img src="media/servicios.jpg" alt="seccionEscolares" class="seccionProductos__productosImagen--imagenSeccion wow animate__animated animate__fadeInRight">
+
+				</div>
+			</section>
+			
+			<!----PROD. ARTISTICA------>
+
+			<section id="artistica"  class="container-fluid p-0 mb-5" >
+				<div class="p-2 contenedorSeccion d-flex align-items-center"> 
+					<img class="bannerIdSeccion" src="media/version_2/artistica.jpg" alt="">
+					
+					<div class="solapaContenedor2 mx-3">
+
+						<div class="column p-4 text-center ">
+							<h2 class="uppercase">Artistica</h2>
+							<p class="mb-5">Materiales e insumos de Librería Artística para el artesano, artísta plástico, decorativo y Técnico para que puedas CREAR SIN LIMITES</p>
+							<button class="botonVerMas  mx-auto"><a href="productos/articulosArtistica.html">Ver Más</a></button>
 						</div>
 					</div>
-				</section>
-			</div>
+
+				</div>
+			</section>
+
+			<!------Otros Articulos ----->
+			
+			<section id="otrosArticulos" class="container-fluid mb-5">
+				<div class="row">
+					<div class="col-lg-4 col-sm-12 mb-3">
+						<div class="">
+							
+							<a href="pages/servicios.html" class="uppercase bannerSubTitulos "><img src="media/version_2/servicios.jpg" alt="" class="bannerSubArticulos"></a>
+						</div>
+					</div>
+
+					<div class="col-lg-4"><img src="media/version_2/lanas.jpg" alt="" class="bannerSubArticulos"></div>
+					<div class="col-lg-4"><img src="media/version_2/aromas.jpg" alt="" class="bannerSubArticulos"></div>
+				</div>
+			</section>
 		</div>
 
 		<!-----CONTENEDOR CONTACTO------->
@@ -168,7 +163,7 @@
 					<!--------------FORM-------------->
 					<form action="" method="POST" enctype="multipart/form-data" class="formData ">
 
-						
+
 
 						<!-------FORMULARIO------>
 
@@ -211,11 +206,11 @@
 					</form>
 
 					<!---------MAPA GOOGLE----------->
-					
+
 					<div class="mapaUbicacion">		
 						<iframe class="container-fluid col-sm-12 col-md-12 col-lg-12" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13362.728224966702!2d-64.3622048!3d-33.1437165!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6407318f581dc5cb!2sPapelera%20Piedra%20Papel%20y%20Tijera!5e0!3m2!1ses-419!2sar!4v1623640132443!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>	
 					</div>	
-					
+
 				</div>
 			</div>	
 
@@ -254,27 +249,27 @@
 				</div>
 
 				<div class="container p-3">
-					<section id="newsletter" class="row p-3">
+					<section id="newsletter" class="row p-3 d-flex align-items-center">
 
 						<h2 class=" tituloNewsletter col-md-3 p-0 text-center uppercase">Recibi todas las novedades de Piedra Papel y Tijera</h2>
-						
+
 						<div class="col-md-9">
 
 							<form id="newsletterForm" method="POST">
 								<div class="form-row">
-									<div class="col-12 col-md-9 mb-2 mb-md-2">
-										<input class="btnEmail form-control form-control-lg send-newsletter" placeholder="Ingrese su email..." id="email" required="required" name="email" type="email" value="">
+									<div class="col-12 col-md-9 mb-2 mb-md-2 px-0">
+										<input class="btnEmail" placeholder="Ingrese su email..." id="email" required="required" name="email" type="email" value="">
 									</div>
 
-									<div class="col-12 col-md-3">
-										<button type="submit" class=" p-2 btn btnNewsletter rounded-pill container " data-toggle="modal" data-target="#avisoNewsletter">SUSCRIBITE</button>
+									<div class="col-12 col-md-3 px-0 mb-2">
+										<button type="submit" class="btnNewsletter container " data-toggle="modal" data-target="#avisoNewsletter">SUSCRIBITE</button>
 									</div>
 
 								</div>
 
 							</form>
 
-							
+
 							<!-- Modal -->
 							<div class="modal fade" id="avisoNewsletter" tabindex="-1" aria-labelledby="confirmacionNewsletter" aria-hidden="true">
 								<div class="modal-dialog">
@@ -301,7 +296,7 @@
 							</div>
 						</div>
 					</section>
-					
+
 				</div>
 
 			</div>
