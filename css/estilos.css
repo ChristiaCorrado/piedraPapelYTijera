@@ -89,16 +89,23 @@
   height: 300px;
   background: #f7f7f7e3; }
 
-/*----subarticulos----*/
-.bannerSubArticulos {
-  width: 350px;
+/*----subArticulos----*/
+.picSeccion {
+  position: relative;
   height: 350px;
-  border-radius: 400px;
-  max-width: 100%; }
-
-.bannerSubTitulos {
-  font-size: 1.5rem;
-  font-weight: 700; }
+  width: 350px;
+  overflow: hidden;
+  box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.5);
+  cursor: pointer; }
+  .picSeccion img {
+    width: 100%;
+    height: 100%; }
+  .picSeccion .picDescription {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #eaf2e3; }
 
 /*----------------CONTACTO----------------*/
 .contactTitle {
@@ -216,13 +223,14 @@
   font-weight: 700;
   font-size: 1.5em;
   padding: 8px 22px;
-  border-radius: 20px;
+  border-radius: 5px;
+  border-bottom: solid 3px #ff637d;
   cursor: pointer;
   background-size: cover;
   transition: 1s;
-  background-image: linear-gradient(to left, #00F260, #0575E6); }
+  background-image: linear-gradient(to left, #EDBB99, #ff637d); }
   .botonVerMas:hover {
-    background-image: linear-gradient(to left, #0575E6, #00F260);
+    background-image: linear-gradient(to left, #EDBB99, #EDBB99);
     transform: translatey(3px); }
   .botonVerMas a {
     color: white;

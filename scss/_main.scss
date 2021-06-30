@@ -108,21 +108,34 @@
 
 }
 
-/*----subarticulos----*/
+/*----subArticulos----*/
 
-
-
-
-.bannerSubArticulos{
-	width: 350px;
+.picSeccion{
+	position: relative;
 	height: 350px;
-	border-radius: 400px;
-	max-width: 100%;
-	}
+	width: 	350px;
+	overflow: hidden;
+	box-shadow: 0px 15px 25px
+	rgba(0, 	0, 	0, 	0.50);
+	cursor: pointer;
 
-.bannerSubTitulos{
-	@include titulos (1.5rem, $fBold);
+	img{
+		width: 100%;
+		height: 100%;	
 	}
+	.picDescription{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: map-get($paletaColores, gris);
+}
+}
+
+
+
+
+
 
 
 /*----------------CONTACTO----------------*/
@@ -259,13 +272,14 @@
 	font-weight: $fBold;
 	font-size: 1.5em;
 	padding: 8px 22px;
-	border-radius: 20px;
+	border-radius: 5px;
+	border-bottom: solid 3px map-get($paletaColores , rojo);
 	cursor: pointer;
 	background-size: cover;
 	transition:1s;
-	background-image: linear-gradient(to left,#00F260,#0575E6);
+	background-image: linear-gradient(to left,map-get($paletaColores , rosa),map-get($paletaColores , rojo));
 		&:hover{
-			background-image: linear-gradient(to left,#0575E6,#00F260);
+			background-image: linear-gradient(to left,map-get($paletaColores , rosa),map-get($paletaColores , rosa));
 			transform: translatey(3px);}
 			a {
 				color: white;
