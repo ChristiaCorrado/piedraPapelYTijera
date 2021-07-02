@@ -3,7 +3,7 @@
 @mixin titulos($size, $weight) {
 	font-size: $size;
 	font-weight:$weight;
-	
+
 }
 
 .bold{
@@ -34,7 +34,7 @@
 		.botonera a{
 		background: map-get($paletaColores, amarillo);
 		text-decoration: none;
-		padding: 20px;	
+		padding: 20px;
 		letter-spacing: 0.5px;
 		font-size: 1.2rem;
 		color: black;}
@@ -115,21 +115,33 @@
 	box-shadow: 0px 15px 25px
 	rgba(0, 	0, 	0, 	0.50);
 	cursor: pointer;
-
-	img{
-		width: 100%;
-		height: 100%;	
+		img{
+			width: 100%;
+			height: 100%;}
+			&:hover .picDescription{
+				transform: scale(1);
+			}
 	}
+
 	.picDescription{
 	position: absolute;
 	top: 0;
+	left: 0;
 	width: 100%;
 	height: 100%;
-	background: map-get($paletaColores, gris);
-}
+	background: rgba(0, 	0, 	0, 	0.50);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	transform: scale(0);
+	transition: .3s ease;
 }
 
-
+.tituloSize{
+	font-size: 25px;
+}
 
 
 
@@ -139,7 +151,7 @@
 .contactTitle {
   padding: 10px;
   background: map-get($paletaColores, violeta);
-  text-align: center; 
+  text-align: center;
   h2{
 		@include titulos(3rem,$fRegular);
 		@media only screen and (min-width: 480px) and (max-width: 728px) {
@@ -151,7 +163,7 @@
 
 
 .mapaUbicacion {
-  width: 600px; 
+  width: 600px;
 }
 
 /*-------- FORMULARIO ---------------*/
@@ -186,10 +198,10 @@
 
 /*----------------SERVICIOS------------------*/
 
-.serviciosExtras{ 
+.serviciosExtras{
 	padding: 10px;
   background: map-get($paletaColores, azul);
-  text-align: center; 
+  text-align: center;
   h2{
 		@include titulos(3rem,$fRegular);
 		@media only screen and (min-width: 480px) and (max-width: 728px) {
@@ -198,7 +210,7 @@
 		@include titulos(1rem, $fRegular);}
 	}
 }
-		
+
 
 .btnNewsletter{
 	font-family: Josefin, sans-serif;
@@ -226,7 +238,7 @@
     border-color: teal;
     outline: 0;
 	}
-	
+
 }
 
 .tituloNewsletter{
@@ -254,7 +266,7 @@
 .botoneraFooter{
 	display: flex;
 	justify-content: space-around;
-	
+
 }
 
 .botoneraContainer{
@@ -384,5 +396,3 @@ a{
 	}
 
 }
-
-
