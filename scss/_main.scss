@@ -388,10 +388,17 @@ a{
 	}
 }
 
-/*------FOTOS---------*/
+/*--GALERIAS DE FOTOS--*/
 
- #galeriaArtistica img{
-	width:100%;
+.galeriaProductos{
+  margin-left: auto;
+  margin-right: auto;
+
+  img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
 }
 
 /*-- PRESUPUESTOS---*/

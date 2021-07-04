@@ -304,9 +304,14 @@ a {
   .redes a {
     font-family: "Josefin", sans-serif; }
 
-/*------FOTOS---------*/
-#galeriaArtistica img {
-  width: 100%; }
+/*--GALERIAS DE FOTOS--*/
+.galeriaProductos {
+  margin-left: auto;
+  margin-right: auto; }
+  .galeriaProductos img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
 
 /*-- PRESUPUESTOS---*/
 .fondoAzul {
@@ -320,10 +325,3 @@ a {
 /*---PALETA DE COLORES----*/
 /*------FONDO------*/
 /*------TEXTOS-----*/
-.galeriaProductos {
-  margin-left: auto;
-  margin-right: auto; }
-  .galeriaProductos img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; }
