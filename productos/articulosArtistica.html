@@ -1,10 +1,10 @@
-index.html<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Artistica</title>
+	<title>Talleres</title>
 
 	<!--bootstrap link</!-->
 	<link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
@@ -17,13 +17,14 @@ index.html<!DOCTYPE html>
 
 </head>
 <body>
+
 	<div class="header">
 
 		<nav class="navbar navbar-expand-lg navbar-light d-flex p-0 ">
 
 			<div class=" d-flex justify-content-around flex-nowrap container-fluid">
 				<div class="container-fluid">
-					<a href="index.html"><img src="../media/logo.png" class="px-0 "></a>
+					<a href="../index.html"><img src="../media/logo.png" class="px-0 "></a>
 				</div>
 
 				<div class="botonMobile">
@@ -35,71 +36,56 @@ index.html<!DOCTYPE html>
 
 			<div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
 				<div class="navbar-nav botonera">
-					<a href="../index.html">INICIO</a></a>
-					<a href="../index.html#contenedorDeServicios">PRODUCTOS</a>
-					<a href="../index.html#servicios">SERVICIOS</a>
-					<a href="../pages/talleres.html">TALLERES</a>
-					<a href="../index.html#contact-Us">CONTACTO</a>
+					<a class="data-scroll" href="../index.html">INICIO</a></a>
+					<a class="data-scroll" href="../index.html#contenedorDeServicios">PRODUCTOS</a>
+					<a class="data-scroll" href="../index.html#servicios">SERVICIOS</a>
+					<a class="data-scroll" href="../pages/talleres.html">TALLERES</a>
+					<a class="data-scroll" href="../index.html#contact-Us">CONTACTO</a>
 				</div>
 			</div>
 		</nav>
 	</div>
 
-	<section id="galeriaArtistica" class="container pagesFooter">
 
-		<div class="text-center">
-			<h1> ARTISTICA </h1>
-			<p> En esta seccion podras ver algunos de nuestros articulos para artes manualidades TU PUEDES CREAR SIN LIMITES siguenos en nuestras redes sociales para ver mas!!! </p>
-		</div>
-		<div class="galeriaProductos">
+	<div id="talleres" class="container-fluid pagesFooter">
 
-				<div class=" picProduct">
-					<img src="../media/mediaProductos/art1.jpg" alt="Galeria Artistica">
+		<section id="galeriaArtistica" class="container-fluid">
+
+			<div class="text-center">
+				<h1 class="uppercase"> Artistica </h1>
+				<p> TU puedes crear sin limites... nuestros productos solo son una herramienta mas!</p>
+			</div>
+
+			<div class="row">
+				<div class="col-lg-4 col-md-6 col-sm-12">
+					<img src="" alt="">
 				</div>
 
-				<div class="picProduct">
-					<img src="../media/mediaProductos/art2.jpg" alt="Galeria Artistica">
+				<div class="col-lg-4 col-md-6 col-sm-12">
+					<img src="" alt="">
 				</div>
 
-				<div class=" picProduct">
-					<img src="../media/mediaProductos/art3.jpg" alt="Galeria Artistica">
+				<div class="col-lg-4 col-md-6 col-sm-12">
+					<img src="" alt="">
 				</div>
 
-				<div class="picProduct">
-					<img src="../media/mediaProductos/art4.jpg" alt="Galeria Artistica">
+				<div class="col-lg-4 col-md-6 col-sm-12">
+					<img src="" alt="">
 				</div>
 
-				<div class=" picProduct">
-					<img src="../media/mediaProductos/art5.jpg" alt="Galeria Artistica">
+				<div class="col-lg-4 col-md-6 col-sm-12">
+					<img src="" alt="">
 				</div>
 
-				<div class="picProduct">
-					<img src="../media/mediaProductos/art6.jpg" alt="Galeria Artistica">
+				<div class="col-lg-4 col-md-6 col-sm-12">
+					<img src="" alt="">
 				</div>
 
-				<div class=" picProduct">
-					<img src="../media/mediaProductos/art7.jpg" alt="Galeria Artistica">
-				</div>
+			</div>
 
-				<div class=" picProduct">
-					<img src="../media/mediaProductos/art8.jpg" alt="Galeria Artistica">
-				</div>
 
-				<div class="picProduct">
-					<img src="../media/mediaProductos/art6.jpg" alt="Galeria Artistica">
-				</div>
-
-				<div class=" picProduct">
-					<img src="../media/mediaProductos/art7.jpg" alt="Galeria Artistica">
-				</div>
-
-				<div class=" picProduct">
-					<img src="../media/mediaProductos/art8.jpg" alt="Galeria Artistica">
-				</div>
-
-		</div>
-	</section>
-
+		</section>
+	</div>
 
 	<footer class="footer ">
 		<div  class="botoneraFooter container-fluid d-flex row p-3">
@@ -191,6 +177,12 @@ index.html<!DOCTYPE html>
 
 	</footer>
 
+	<div class="botonDeAccion">
+		<a href="https://api.whatsapp.com/send?phone=+543584834134" target="_blank"><img src="../media/whatsapp.svg" alt="logoWhatsapp"></a>
+	</div>
+
+
+
 	<!--------LINK JQUERY-------->
 	<script src="../bootstrap/js/jquery-3.5.1.slim.min.js" ></script>
 
@@ -200,11 +192,12 @@ index.html<!DOCTYPE html>
 	<!-----LINK FONT AWESOME----->
 	<script src="https://kit.fontawesome.com/cff0df97a9.js" crossorigin="anonymous"></script>
 
-
+	<!-----LINK WOW.JS----->
+	<script src="js/wow.min.js"></script>
+	<script>
+	new WOW().init();
+</script>
 </body>
-
-
-
 
 
 
