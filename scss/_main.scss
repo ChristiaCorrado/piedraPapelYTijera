@@ -13,11 +13,11 @@
 /*---------HEADER NAVS-------------*/
 .header{
 		height: 90px;
-		background: map-get($paletaColores, amarillo);
+		background:linear-gradient(to right, #fffec6, #fbd786, #f7797d);;
 		position: fixed;
 		width: 100%;
 		z-index: 100;
-		box-shadow: 0 2px 2px lightgray;
+		box-shadow: 0 10px 20px 0 rgba(0,0,0,.1);
 
 		img{
 			margin: auto;
@@ -35,7 +35,6 @@
 }
 
 .botonera a{
-background: map-get($paletaColores, amarillo);
 text-decoration: none;
 padding: 20px;
 letter-spacing: 0.5px;
@@ -415,5 +414,38 @@ a{
 	.rojo{
 		color: map-get($paletaColores, rojo);
 	}
+
+}
+
+
+/*--QUIENES SOMOS--*/
+.quienesSomosTitulo{
+	position: relative;
+	padding: 200px;
+	background: linear-gradient(to right, #fffec6, #fbd786, #f7797d);
+	h4{
+		@include titulos(2rem, $fBold);
+	}
+}
+
+.custom-shape-divider-bottom-1625445694 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1625445694 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 133px;
+}
+
+.custom-shape-divider-bottom-1625445694 .shape-fill {
+    fill: #FFFFFF;
 
 }
