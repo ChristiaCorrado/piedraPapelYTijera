@@ -19,7 +19,7 @@
   .header img {
     margin: auto;
     max-height: 90px;
-    width: 100%; }
+    max-width: 300px; }
   .header .botonMobile {
     padding-right: 10px;
     color: black; }
