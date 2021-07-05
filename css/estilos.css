@@ -18,7 +18,8 @@
   box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1); }
   .header img {
     margin: auto;
-    max-height: 90px; }
+    max-height: 90px;
+    width: 100%; }
   .header .botonMobile {
     padding-right: 10px;
     color: black; }
@@ -29,8 +30,11 @@
   letter-spacing: 0.5px;
   font-size: 1.2rem;
   color: black; }
+  @media only screen and (min-width: 200px) and (max-width: 990px) {
+    .botonera a {
+      background: linear-gradient(to right, #fffec6, #fbd786, #f7797d); } }
   .botonera a:hover {
-    background-color: lightyellow;
+    background: lightyellow;
     border-bottom: solid 5px #ff637d; }
 
 /*--------CARRUSEL DE IMAGENES-----------*/
@@ -324,13 +328,19 @@ a {
     color: #ff637d; }
 
 /*--QUIENES SOMOS--*/
-.quienesSomosTitulo {
+.shapeTitile {
   position: relative;
-  padding: 200px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  padding-left: 10px;
+  padding-right: 10px;
   background: linear-gradient(to right, #fffec6, #fbd786, #f7797d); }
-  .quienesSomosTitulo h4 {
+  .shapeTitile h4 {
     font-size: 2rem;
     font-weight: 700; }
+  @media only screen and (max-width: 480px) {
+    .shapeTitile {
+      padding-top: 100px; } }
 
 .custom-shape-divider-bottom-1625445694 {
   position: absolute;
@@ -348,6 +358,25 @@ a {
   height: 133px; }
 
 .custom-shape-divider-bottom-1625445694 .shape-fill {
+  fill: #FFFFFF; }
+
+/*---PAGINAS DE PRODUCTOS-----*/
+.custom-shape-divider-bottom-1625447726 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg); }
+
+.custom-shape-divider-bottom-1625447726 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 133px; }
+
+.custom-shape-divider-bottom-1625447726 .shape-fill {
   fill: #FFFFFF; }
 
 /*---PALETA DE COLORES----*/

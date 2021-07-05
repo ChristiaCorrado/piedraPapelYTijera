@@ -22,11 +22,11 @@
 		img{
 			margin: auto;
 			max-height: 90px;
+			width: 100%;
 
 		}
 
 		.botonMobile{
-
 			padding-right: 10px;
 			color: black;
 		}
@@ -40,10 +40,13 @@ padding: 20px;
 letter-spacing: 0.5px;
 font-size: 1.2rem;
 color: black;
+@media only screen and (min-width: 200px) and (max-width: 990px) {
+	background:linear-gradient(to right, #fffec6, #fbd786, #f7797d);}
 	&:hover{
-	background-color:lightyellow;
+	background:lightyellow;
 	border-bottom: solid 5px map-get($paletaColores, rojo);
 	}
+
 }
 /*--------CARRUSEL DE IMAGENES-----------*/
 .carruselImagenes{
@@ -419,13 +422,19 @@ a{
 
 
 /*--QUIENES SOMOS--*/
-.quienesSomosTitulo{
+.shapeTitile{
 	position: relative;
-	padding: 200px;
+	padding-top: 200px;
+	padding-bottom: 200px;
+	padding-left: 10px;
+	padding-right: 10px;
 	background: linear-gradient(to right, #fffec6, #fbd786, #f7797d);
 	h4{
 		@include titulos(2rem, $fBold);
 	}
+
+	@media only screen and (max-width: 480px) {
+		padding-top: 100px;}
 }
 
 .custom-shape-divider-bottom-1625445694 {
@@ -448,4 +457,28 @@ a{
 .custom-shape-divider-bottom-1625445694 .shape-fill {
     fill: #FFFFFF;
 
+}
+
+
+
+/*---PAGINAS DE PRODUCTOS-----*/
+.custom-shape-divider-bottom-1625447726 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1625447726 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 133px;
+}
+
+.custom-shape-divider-bottom-1625447726 .shape-fill {
+    fill: #FFFFFF;
 }
