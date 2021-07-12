@@ -1,0 +1,62 @@
+/*--QUIENES SOMOS--*/
+.shapeTitile{
+	position: relative;
+	padding-top: 200px;
+	padding-bottom: 200px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background: linear-gradient(to right, #fffec6, #fbd786, #f7797d);
+	h4{
+		@include titulos(2rem, $fBold);
+	}
+
+	@media only screen and (max-width: 480px) {
+		padding-top: 100px;}
+}
+
+
+.custom-shape-divider-bottom-1625445694 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1625445694 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 133px;
+}
+
+.custom-shape-divider-bottom-1625445694 .shape-fill {
+    fill: #FFFFFF;
+
+}
+
+
+
+/*---PAGINAS DE PRODUCTOS-----*/
+.custom-shape-divider-bottom-1625447726 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1625447726 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 133px;
+}
+
+.custom-shape-divider-bottom-1625447726 .shape-fill {
+    fill: #FFFFFF;
+}

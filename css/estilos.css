@@ -327,6 +327,15 @@ a {
   .fondoRojo .rojo {
     color: #ff637d; }
 
+/*-- TALLERES--*/
+#bannerTalleres img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; }
+
+/*---PALETA DE COLORES----*/
+/*------FONDO------*/
+/*------TEXTOS-----*/
 /*--QUIENES SOMOS--*/
 .shapeTitile {
   position: relative;
@@ -378,7 +387,3 @@ a {
 
 .custom-shape-divider-bottom-1625447726 .shape-fill {
   fill: #FFFFFF; }
-
-/*---PALETA DE COLORES----*/
-/*------FONDO------*/
-/*------TEXTOS-----*/
