@@ -245,7 +245,7 @@ color: black;
 	&:focus{
 		color: black;
     background-color: #fff;
-    border-color: teal;
+    border-color: map-get($paletaColores, rojo);
     outline: 0;
 	}
 

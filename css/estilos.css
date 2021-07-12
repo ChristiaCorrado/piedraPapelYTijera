@@ -209,7 +209,7 @@
   .btnEmail:focus {
     color: black;
     background-color: #fff;
-    border-color: teal;
+    border-color: #ff637d;
     outline: 0; }
 
 .tituloNewsletter {
