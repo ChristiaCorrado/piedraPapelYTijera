@@ -171,6 +171,9 @@
 .send {
   background: #D2B4DE; }
 
+.btnNoFocus:focus {
+  box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0); }
+
 /*----------------SERVICIOS------------------*/
 .serviciosExtras {
   padding: 10px;
@@ -207,6 +210,7 @@
   width: 100%;
   height: 100%; }
   .btnEmail:focus {
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0);
     color: black;
     background-color: #fff;
     border-color: #ff637d;
@@ -289,7 +293,7 @@ a {
   padding: 5px;
   margin-bottom: 6px; }
 
-.pagesFooter__pDenvios--titulo {
+.pDenvios {
   color: #000;
   background: #eaf2e3;
   text-align: center;
