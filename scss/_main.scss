@@ -67,9 +67,9 @@ color: black;
 	h2{
 		@include titulos(3rem,$fRegular);
 		@media only screen and (min-width: 480px) and (max-width: 728px) {
-		@include titulos(1.5rem, $fRegular);}
+		@include titulos(2rem, $fRegular);}
 		@media only screen and (max-width: 480px) {
-		@include titulos(1rem, $fRegular);}
+		@include titulos(2rem, $fRegular);}
 	}
 }
 
